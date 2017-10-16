@@ -1,0 +1,145 @@
+body {
+	background-image: url("bg.gif");
+    	background-repeat: repeat;
+}
+
+.center {
+	text-align: center;
+}
+
+.wrapper{
+	width:50vw;
+	height: auto;
+	margin: 0 auto;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	background-color: #000;
+	background-image: url("cracker.gif");
+    	background-repeat: repeat;
+    	padding-bottom: 50px;
+}
+
+.name {
+	color: #fff;
+    	margin: 6px;
+    	padding: 25px 20px;
+    	font-size: 48px;
+    	font-family: sans-serif;
+}
+
+.img-holder {
+    margin-bottom: 25px;
+}
+
+.img-holder img {
+	width:55%;
+}
+
+.msg {
+	color: #fff;
+    	font-family: sans-serif;
+    	padding: 25px;
+    	font-weight: bold;
+    	font-size: 20px;
+}
+
+.msg p {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.msg p.msg-name  {
+	text-align: right;
+	margin: 4px 20px 0 0;
+}
+
+.enter-name input[type=name] {
+	background-color: #c0392b;
+	color: #fff;
+   	border-radius: 10px;
+    	box-sizing: border-box;
+    	border: none;
+    	padding: 5px;
+    	position: fixed;
+    	left: 10px;
+    	bottom: 0px;
+    	height: 50px;
+    	width: 70%;
+    	text-align: center;
+    	font-size: 22px;
+    	display: inline-block;
+}
+
+.enter-name .btn {
+	border-radius: 10px;
+    	font-size: 21px;
+    	padding: 4px;
+    	position: fixed;
+    	right: 2px;
+    	bottom: 0px;
+    	height: 50px;
+    	width: 23%;
+    	display: inline-block;
+    	color: #fff;
+    	background-color: #c0392b;
+    	border: none;
+    	letter-spacing: .5px;
+    	transition: .2s ease-out;
+    	cursor: pointer;
+    	line-height: 36px;
+    	outline: 0;
+    	text-transform: uppercase;
+    	vertical-align: middle;
+    	text-decoration: none;
+    	animation-duration: 4s !important;
+}
+
+.enter-name input[type=name]::-webkit-input-placeholder { 
+	color: #ddd;
+  	font-size: 18px;	
+}
+
+.enter-name input[type=name]::-moz-placeholder { 
+	color: #eee;
+  	font-size: 18px;
+}
+
+.enter-name input[type=name]:focus::-webkit-input-placeholder {
+    color: #c0392b;
+}
+
+.enter-name input[type=name]:focus::-moz-placeholder { 
+	color: #c0392b;
+  	font-size: 18px;
+}
+
+.img-holder img {
+    	width: 75%;
+}
+
+.wapp-msg a {
+	background-color: #398a27;
+    	text-decoration: none;
+    	color: #fff;
+	border-radius: 10px;
+    	box-sizing: border-box;
+    	border: none;
+    	padding: 15px 0;
+	position: fixed;
+    	left: 10px;
+    	bottom: 0px;
+    	width: 97%;
+    	text-align: center;
+    	font-size: 22px;
+    	display: inline-block;
+    	text-shadow: 1px 1px 0 #444;
+}
+
+	
+@media only screen and (max-width: 500px) {
+    	.wrapper{
+		width:96vw;
+	}
+}
+
+/* CSS for Contest Winner */
+
