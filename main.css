@@ -1,10 +1,12 @@
-
+#clockbox {
+    color: white; font-size: 20px; background-color: darkgreen; display: inline-block; border: 3px solid darkgreen ; border-radius: 3px; margin:0px; padding: 0px; font-weight: bold;
+}
 @font-face {
     font-family: 'Kruti-Dev-010';
-    src:  url('fonts/Kruti-Dev-010.ttf.html') format('woff'),
-    url('fonts/Kruti-Dev-010.ttf-2.html#Kruti-Dev-010') format('svg'),
-    url('fonts/Kruti-Dev-010.ttf-3.html'),
-    url('fonts/Kruti-Dev-010d41d.html?#iefix') format('embedded-opentype');
+    src:  url('fonts/Kruti-Dev-010.ttf.woff') format('woff'),
+    url('fonts/Kruti-Dev-010.ttf.svg#Kruti-Dev-010') format('svg'),
+    url('fonts/Kruti-Dev-010.ttf.eot'),
+    url('fonts/Kruti-Dev-010.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -190,7 +192,7 @@ input {
     margin: auto;
     text-align: center;
     position: relative;
-    padding: 20px;
+    padding: 5px;
     background: rgba(255, 255, 255, 0.39);
     box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
     margin-bottom: 60px
@@ -206,7 +208,7 @@ input {
 }
 .main-greeting .main_body .text2 {
     padding: 10px;
-    font-size: 16px
+    font-size: 20px
 }
 .main-greeting .text {
     color: #405d9b;
@@ -216,7 +218,7 @@ input {
     text-align: center;
 }
 .main-greeting .pp-img {
-    max-width: 200px;
+    max-width: 400px;
     margin-bottom: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.64);
 }
@@ -228,8 +230,8 @@ input {
     color: #b50dae;
 }
 .busi {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
     color: #da0051;
 }
 .share-box {
